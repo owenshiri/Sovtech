@@ -1,0 +1,449 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Tests\\ChuckSwapiCAssessment.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckApplicationService\\ChuckNorrisApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckApplicationService\\ChuckNorrisApplicationService.csproj",
+        "projectName": "ChuckNorrisApplicationService",
+        "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckApplicationService\\ChuckNorrisApplicationService.csproj",
+        "packagesPath": "C:\\Users\\Owen Shiri\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Owen Shiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Domain.Model\\ChuckSwapiCAssessment.Domain.Model.csproj": {
+                "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Domain.Model\\ChuckSwapiCAssessment.Domain.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.API.csproj",
+        "projectName": "ChuckSwapiCAssessment.API",
+        "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.API.csproj",
+        "packagesPath": "C:\\Users\\Owen Shiri\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapCAssessment\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Owen Shiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckApplicationService\\ChuckNorrisApplicationService.csproj": {
+                "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckApplicationService\\ChuckNorrisApplicationService.csproj"
+              },
+              "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Domain.Model\\ChuckSwapiCAssessment.Domain.Model.csproj": {
+                "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Domain.Model\\ChuckSwapiCAssessment.Domain.Model.csproj"
+              },
+              "C:\\SourceCode\\ChuckSwapCAssessment\\SearchApplicationService\\SearchApplicationService.csproj": {
+                "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\SearchApplicationService\\SearchApplicationService.csproj"
+              },
+              "C:\\SourceCode\\ChuckSwapCAssessment\\SwapiApplicationService\\SwapiApplicationService.csproj": {
+                "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\SwapiApplicationService\\SwapiApplicationService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "GraphQL.Server.Transports.AspNetCore.SystemTextJson": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "GraphQL.Server.Ui.Playground": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Domain.Model\\ChuckSwapiCAssessment.Domain.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Domain.Model\\ChuckSwapiCAssessment.Domain.Model.csproj",
+        "projectName": "ChuckSwapiCAssessment.Domain.Model",
+        "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Domain.Model\\ChuckSwapiCAssessment.Domain.Model.csproj",
+        "packagesPath": "C:\\Users\\Owen Shiri\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Domain.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Owen Shiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Tests\\ChuckSwapiCAssessment.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Tests\\ChuckSwapiCAssessment.Tests.csproj",
+        "projectName": "ChuckSwapiCAssessment.Tests",
+        "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Tests\\ChuckSwapiCAssessment.Tests.csproj",
+        "packagesPath": "C:\\Users\\Owen Shiri\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Owen Shiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.API.csproj": {
+                "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SourceCode\\ChuckSwapCAssessment\\SearchApplicationService\\SearchApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SourceCode\\ChuckSwapCAssessment\\SearchApplicationService\\SearchApplicationService.csproj",
+        "projectName": "SearchApplicationService",
+        "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\SearchApplicationService\\SearchApplicationService.csproj",
+        "packagesPath": "C:\\Users\\Owen Shiri\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceCode\\ChuckSwapCAssessment\\SearchApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Owen Shiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckApplicationService\\ChuckNorrisApplicationService.csproj": {
+                "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckApplicationService\\ChuckNorrisApplicationService.csproj"
+              },
+              "C:\\SourceCode\\ChuckSwapCAssessment\\SwapiApplicationService\\SwapiApplicationService.csproj": {
+                "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\SwapiApplicationService\\SwapiApplicationService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SourceCode\\ChuckSwapCAssessment\\SwapiApplicationService\\SwapiApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SourceCode\\ChuckSwapCAssessment\\SwapiApplicationService\\SwapiApplicationService.csproj",
+        "projectName": "SwapiApplicationService",
+        "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\SwapiApplicationService\\SwapiApplicationService.csproj",
+        "packagesPath": "C:\\Users\\Owen Shiri\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceCode\\ChuckSwapCAssessment\\SwapiApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Owen Shiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckApplicationService\\ChuckNorrisApplicationService.csproj": {
+                "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckApplicationService\\ChuckNorrisApplicationService.csproj"
+              },
+              "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Domain.Model\\ChuckSwapiCAssessment.Domain.Model.csproj": {
+                "projectPath": "C:\\SourceCode\\ChuckSwapCAssessment\\ChuckSwapiCAssessment.Domain.Model\\ChuckSwapiCAssessment.Domain.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

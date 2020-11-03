@@ -1,0 +1,14 @@
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\bin\Debug\netcoreapp3.1\ChuckNorrisApplicationService.deps.json
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\bin\Debug\netcoreapp3.1\ChuckNorrisApplicationService.dll
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\bin\Debug\netcoreapp3.1\ChuckNorrisApplicationService.pdb
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\bin\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.dll
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\bin\Debug\netcoreapp3.1\System.Reactive.dll
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\bin\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.pdb
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\bin\Debug\netcoreapp3.1\System.Reactive.xml
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\obj\Debug\netcoreapp3.1\ChuckNorrisApplicationService.csprojAssemblyReference.cache
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\obj\Debug\netcoreapp3.1\ChuckNorrisApplicationService.AssemblyInfoInputs.cache
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\obj\Debug\netcoreapp3.1\ChuckNorrisApplicationService.AssemblyInfo.cs
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\obj\Debug\netcoreapp3.1\ChuckNorrisApplicationService.csproj.CoreCompileInputs.cache
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\obj\Debug\netcoreapp3.1\ChuckNorrisApplicationService.csproj.CopyComplete
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\obj\Debug\netcoreapp3.1\ChuckNorrisApplicationService.dll
+C:\SourceCode\ChuckSwapCAssessment\ChuckApplicationService\obj\Debug\netcoreapp3.1\ChuckNorrisApplicationService.pdb

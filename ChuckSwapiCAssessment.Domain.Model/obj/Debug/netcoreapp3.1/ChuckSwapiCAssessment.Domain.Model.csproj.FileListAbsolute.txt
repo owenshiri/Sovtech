@@ -1,0 +1,11 @@
+C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\bin\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.deps.json
+C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\bin\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.dll
+C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\bin\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.pdb
+C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\bin\Debug\netcoreapp3.1\System.Reactive.dll
+C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\bin\Debug\netcoreapp3.1\System.Reactive.xml
+C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\obj\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.AssemblyInfoInputs.cache
+C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\obj\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.AssemblyInfo.cs
+C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\obj\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.csproj.CoreCompileInputs.cache
+C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\obj\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.csproj.CopyComplete
+C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\obj\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.dll
+C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\obj\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.pdb

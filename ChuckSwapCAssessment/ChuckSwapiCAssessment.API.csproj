@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>40b3b1a1-be9c-47f2-a345-bc6680b83e7b</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL.Server.Transports.AspNetCore.SystemTextJson" Version="4.2.0" />
+    <PackageReference Include="GraphQL.Server.Ui.Playground" Version="4.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChuckApplicationService\ChuckNorrisApplicationService.csproj" />
+    <ProjectReference Include="..\ChuckSwapiCAssessment.Domain.Model\ChuckSwapiCAssessment.Domain.Model.csproj" />
+    <ProjectReference Include="..\SearchApplicationService\SearchApplicationService.csproj" />
+    <ProjectReference Include="..\SwapiApplicationService\SwapiApplicationService.csproj" />
+  </ItemGroup>
+
+
+</Project>

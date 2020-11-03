@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "0BaJbkJz/8uNH2BH7uP2eIBDQVecfMar8DSAsreX1fFAPDFQ3HgLwpzaR8H3WZmWAeq046qg5lUcAGQ4KGMfuA==",
+  "success": true,
+  "projectFilePath": "C:\\SourceCode\\ChuckSwapCAssessment\\SwapiApplicationService\\SwapiApplicationService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Owen Shiri\\.nuget\\packages\\graphql\\3.1.0\\graphql.3.1.0.nupkg.sha512",
+    "C:\\Users\\Owen Shiri\\.nuget\\packages\\graphql-parser\\5.3.3\\graphql-parser.5.3.3.nupkg.sha512",
+    "C:\\Users\\Owen Shiri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Owen Shiri\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Owen Shiri\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Owen Shiri\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\Owen Shiri\\.nuget\\packages\\system.reactive\\4.4.1\\system.reactive.4.4.1.nupkg.sha512",
+    "C:\\Users\\Owen Shiri\\.nuget\\packages\\system.reactive.core\\4.4.1\\system.reactive.core.4.4.1.nupkg.sha512",
+    "C:\\Users\\Owen Shiri\\.nuget\\packages\\system.reactive.linq\\4.4.1\\system.reactive.linq.4.4.1.nupkg.sha512",
+    "C:\\Users\\Owen Shiri\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

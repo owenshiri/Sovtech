@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChuckApplicationService\ChuckNorrisApplicationService.csproj" />
+    <ProjectReference Include="..\ChuckSwapiCAssessment.Domain.Model\ChuckSwapiCAssessment.Domain.Model.csproj" />
+  </ItemGroup>
+
+</Project>
