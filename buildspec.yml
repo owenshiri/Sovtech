@@ -9,5 +9,6 @@ phases:
 
 artifacts:
   files:
-    - '**/*'
+    - .\ChuckSwapCAssessment\bin\Release\netcoreapp3.1\**\*
+    - .\ChuckSwapCAssessment\bin\Release\netcoreapp3.1\*
   ##base-directory: ./src/output
