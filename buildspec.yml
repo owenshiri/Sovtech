@@ -10,4 +10,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: ./src/output
+  ##base-directory: ./src/output
