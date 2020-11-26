@@ -3,13 +3,11 @@ version: 0.2
 phases:
   build:
     commands:
-      - cd ChuckSwapCAssessment
       - dotnet restore
       - dotnet test
       - dotnet publish -c Release -r linux-x64 --self-contained true
 
 artifacts:
   files:
-    - .\ChuckSwapCAssessment\bin\Release\netcoreapp3.1\**\*
-    - .\ChuckSwapCAssessment\bin\Release\netcoreapp3.1\*
+    - '**/*'
   ##base-directory: ./src/output
