@@ -21,7 +21,7 @@ namespace ChuckSwapCAssessment.Controllers
             this.swapiService = swapiService;
         }
         [HttpGet]
-        [Route("people")]
+        [Route("people/all")]
         public IActionResult GetAll()
         {
             var result = swapiService.GetAllPeoples();

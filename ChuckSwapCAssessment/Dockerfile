@@ -8,7 +8,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
 COPY ChuckSwapCAssessment/ChuckSwapiCAssessment.csproj ChuckSwapCAssessment/
-RUN dotnet restore "ChuckSwapCAssessment/ChuckSwapiCAssessment.csproj"
+RUN dotnet restore "ChuckSwapCAssessment/ChuckSwapiCAssessment.API.csproj"
 COPY . .
 WORKDIR "/src/ChuckSwapCAssessment"
 RUN dotnet build "ChuckSwapiCAssessment.csproj" -c Release -o /app/build
@@ -19,4 +19,4 @@ RUN dotnet publish "ChuckSwapiCAssessment.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ChuckSwapiCAssessment.dll"]
+ENTRYPOINT ["dotnet", "ChuckSwapiCAssessment.API.dll"]

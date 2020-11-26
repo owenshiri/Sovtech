@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - cd ./src
+      - dotnet restore
+      - dotnet test
+      - dotnet publish -c Release -r linux-x64 --self-contained true
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: ./src/output
