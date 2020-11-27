@@ -12,11 +12,11 @@ hooks:
   #  - location: scripts/after_install
   #    timeout: 300
    #   runas: root
-  ApplicationStart:
-    - location: scripts/start_server.ps1
-      timeout: 300
-      runas: ssm-user
-  ApplicationStop:
-    - location: scripts/stop_server.ps1
-      timeout: 300
-      runas: ssm-user
+  #ApplicationStart:
+   # - location: scripts/start_server.ps1
+   #   timeout: 300
+    #  runas: ssm-user
+  #ApplicationStop:
+  #  - location: scripts/stop_server.ps1
+  #    timeout: 300
+  #    runas: ssm-user
