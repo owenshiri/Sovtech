@@ -13,10 +13,10 @@ hooks:
   #    timeout: 300
    #   runas: root
   ApplicationStart:
-    - location: scripts/start_server
+    - location: scripts/start_server.ps1
       timeout: 300
       runas: root
   ApplicationStop:
-    - location: scripts/stop_server
+    - location: scripts/stop_server.ps1
       timeout: 300
       runas: root
