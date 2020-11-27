@@ -9,3 +9,4 @@ C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\obj\Debug\
 C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\obj\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.csproj.CopyComplete
 C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\obj\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.dll
 C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\obj\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.pdb
+C:\SourceCode\ChuckSwapCAssessment\ChuckSwapiCAssessment.Domain.Model\obj\Debug\netcoreapp3.1\ChuckSwapiCAssessment.Domain.Model.csprojAssemblyReference.cache
