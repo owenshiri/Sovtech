@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-    - source:/
-      destination:/var/www/htm/lit-test
+    - source: /
+      destination: /var/www/lit-test
 hooks:
   #BeforeInstall:
    # - location: scripts/install_dependencies
