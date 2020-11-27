@@ -10,7 +10,7 @@ phases:
 
 artifacts:
   files:
-    - ChuckSwapCAssessment/build_output/**/*
+    - build_output/**/*
     ##- .\ChuckSwapCAssessment\bin\Release\netcoreapp3.1\*
     ##- AspNetCoreWebService/build_output/**/*
     - scripts/**/*
