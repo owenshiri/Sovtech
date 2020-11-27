@@ -12,6 +12,8 @@ artifacts:
   files:
     - .\ChuckSwapCAssessment\bin\Release\netcoreapp3.1\**\*
     - .\ChuckSwapCAssessment\bin\Release\netcoreapp3.1\*
-    - .\scripts\*
+    ##- .\scripts\*
+    - .\scripts\start_server.ps1
+    - .\scripts\stop_server.ps1
     - appspec.yml
   ##base-directory: ./src/output
